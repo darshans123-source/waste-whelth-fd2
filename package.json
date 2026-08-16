@@ -4,6 +4,7 @@
   "private": true,
   "description": "Waste to Wealth - A circular economy simulation casual game",
   "scripts": {
+    "postinstall": "npm --prefix server install && npm --prefix client install",
     "install:all": "npm install && npm --prefix server install && npm --prefix client install",
     "dev:server": "npm --prefix server run dev",
     "dev:client": "npm --prefix client run dev",

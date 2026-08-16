@@ -30,9 +30,14 @@ app.use((err: any, req: express.Request, res: express.Response, next: express.Ne
   res.status(500).json({ error: 'Internal Server Error', message: err.message || 'Something went wrong' });
 });
 
-app.listen(CONFIG.PORT, () => {
-  console.log(`=============================================`);
-  console.log(`🌱 Waste to Wealth Backend running on http://localhost:${CONFIG.PORT}`);
-  console.log(`🔑 Google Auth Configured: ${Boolean(CONFIG.GOOGLE_CLIENT_ID)}`);
-  console.log(`=============================================`);
-});
+if (!process.env.VERCEL) {
+  app.listen(CONFIG.PORT, () => {
+    console.log(`=============================================`);
+    console.log(`🌱 Waste to Wealth Backend running on http://localhost:${CONFIG.PORT}`);
+    console.log(`🔑 Google Auth Configured: ${Boolean(CONFIG.GOOGLE_CLIENT_ID)}`);
+    console.log(`=============================================`);
+  });
+}
+
+export { app };
+export default app;
