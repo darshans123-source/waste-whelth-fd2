@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+.env.development
+
+# Production Builds
+dist/
+client/dist/
+server/dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & Storage
+*.db
+*.sqlite
+waste_to_wealth.json
+waste_to_wealth.json.tmp
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
