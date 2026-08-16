@@ -2,7 +2,7 @@ import React from 'react';
 import { ShoppingBag, TrendingUp, Coins, Sparkles, Zap } from 'lucide-react';
 import { useGame } from '../../context/GameContext';
 import { ProductType } from '../../types/game';
-import { PRODUCT_BASE_PRICES } from '../../../../server/src/services/defaultState';
+import { PRODUCT_BASE_PRICES } from '../../services/gameStateEngine';
 import { Button } from '../common/Button';
 import { Card } from '../common/Card';
 

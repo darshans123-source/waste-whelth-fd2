@@ -1,7 +1,7 @@
 import React from 'react';
 import { ArrowUpCircle, Truck, Boxes, Factory, Warehouse, Sun, Sparkles, Check } from 'lucide-react';
 import { useGame } from '../../context/GameContext';
-import { UPGRADE_PRICES } from '../../../../server/src/services/defaultState';
+import { UPGRADE_PRICES } from '../../services/gameStateEngine';
 import { Button } from '../common/Button';
 import { Card } from '../common/Card';
 

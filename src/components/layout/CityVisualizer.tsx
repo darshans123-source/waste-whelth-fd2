@@ -1,6 +1,6 @@
 import React from 'react';
 import { GameState } from '../../types/game';
-import { LEVEL_DEFINITIONS } from '../../../../server/src/services/defaultState';
+import { LEVEL_DEFINITIONS } from '../../services/gameStateEngine';
 import { Sparkles, ArrowRight } from 'lucide-react';
 
 interface CityVisualizerProps {
