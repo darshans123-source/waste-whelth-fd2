@@ -1,20 +1,31 @@
 {
   "name": "waste-to-wealth",
-  "version": "1.0.0",
   "private": true,
-  "description": "Waste to Wealth - A circular economy simulation casual game",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
-    "postinstall": "npm --prefix server install && npm --prefix client install",
-    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
-    "dev:server": "npm --prefix server run dev",
-    "dev:client": "npm --prefix client run dev",
-    "dev": "concurrently -n \"SERVER,CLIENT\" -c \"blue,green\" \"npm run dev:server\" \"npm run dev:client\"",
-    "build:server": "npm --prefix server run build",
-    "build:client": "npm --prefix client run build",
-    "build": "npm run build:server && npm run build:client",
-    "start": "node server/dist/index.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@react-oauth/google": "^0.12.1",
+    "canvas-confetti": "^1.9.4",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.2",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.1.0"
   }
 }
