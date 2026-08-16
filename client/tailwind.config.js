@@ -22,6 +22,7 @@ export default {
           950: '#052e16',
         },
         gold: {
+<<<<<<< HEAD
           400: '#facc15',
           500: '#eab308',
           600: '#ca8a04',
@@ -37,6 +38,31 @@ export default {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(-6px)' },
+=======
+          400: '#fbbf24',
+          500: '#f59e0b',
+          600: '#d97706',
+        }
+      },
+      animation: {
+        'spin-slow': 'spin 12s linear infinite',
+        'bounce-subtle': 'bounceSubtle 2s ease-in-out infinite',
+        'float': 'float 3s ease-in-out infinite',
+        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+      },
+      keyframes: {
+        bounceSubtle: {
+          '0%, 100%': { transform: 'translateY(-3%)' },
+          '50%': { transform: 'translateY(0)' },
+        },
+        float: {
+          '0%, 100%': { transform: 'translateY(0px)' },
+          '50%': { transform: 'translateY(-10px)' },
+        },
+        pulseGlow: {
+          '0%, 100%': { opacity: '1', boxShadow: '0 0 15px rgba(34, 197, 94, 0.4)' },
+          '50%': { opacity: '0.8', boxShadow: '0 0 25px rgba(34, 197, 94, 0.8)' },
+>>>>>>> e83a90db678c848c1a6f863b9ee1b60d5fd6378f
         }
       }
     },
