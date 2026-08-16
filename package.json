@@ -2,7 +2,6 @@
   "name": "waste-to-wealth",
   "version": "1.0.0",
   "private": true,
-<<<<<<< HEAD
   "description": "Waste to Wealth - A circular economy simulation casual game",
   "scripts": {
     "install:all": "npm install && npm --prefix server install && npm --prefix client install",
@@ -16,16 +15,5 @@
   },
   "devDependencies": {
     "concurrently": "^9.1.2"
-=======
-  "scripts": {
-    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "dev:client": "cd client && npm run dev",
-    "dev:server": "cd server && npm run dev",
-    "build": "cd client && npm run build && cd ../server && npm run build",
-    "install:all": "npm install && cd client && npm install && cd ../server && npm install"
-  },
-  "devDependencies": {
-    "concurrently": "^8.2.2"
->>>>>>> e83a90db678c848c1a6f863b9ee1b60d5fd6378f
   }
 }

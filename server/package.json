@@ -1,7 +1,6 @@
 {
   "name": "waste-to-wealth-server",
   "version": "1.0.0",
-<<<<<<< HEAD
   "description": "Backend API for Waste to Wealth game",
   "main": "dist/index.js",
   "scripts": {
@@ -27,27 +26,5 @@
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
-=======
-  "main": "dist/server.js",
-  "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
-    "build": "tsc",
-    "start": "node dist/server.js"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "express": "^4.19.2",
-    "google-auth-library": "^9.10.0",
-    "jsonwebtoken": "^9.0.2"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^4.17.21",
-    "@types/jsonwebtoken": "^9.0.6",
-    "@types/node": "^20.12.12",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.4.5"
->>>>>>> e83a90db678c848c1a6f863b9ee1b60d5fd6378f
   }
 }
