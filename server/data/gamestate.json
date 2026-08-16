@@ -1,0 +1,276 @@
+{
+  "users": {
+    "usr_demo_manager_1": {
+      "id": "usr_demo_manager_1",
+      "email": "demo_manager@wastetowealth.eco",
+      "name": "Eco Manager (Demo)",
+      "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&h=120&q=80",
+      "isDemo": true,
+      "createdAt": "2026-08-16T05:45:50.219Z",
+      "updatedAt": "2026-08-16T05:45:50.219Z"
+    }
+  },
+  "gameStates": {
+    "usr_demo_manager_1": {
+      "userId": "usr_demo_manager_1",
+      "money": 5000,
+      "xp": 0,
+      "level": 1,
+      "levelTitle": "🏡 Village",
+      "greenScore": 13,
+      "uncollectedWaste": {
+        "houses": {
+          "organic": 35,
+          "plastic": 25,
+          "paper": 20
+        },
+        "schools": {
+          "paper": 30,
+          "plastic": 20,
+          "organic": 15
+        },
+        "offices": {
+          "paper": 40,
+          "plastic": 15,
+          "ewaste": 10
+        },
+        "factories": {
+          "metal": 30,
+          "plastic": 25,
+          "ewaste": 15
+        },
+        "parks": {
+          "organic": 45,
+          "paper": 15
+        },
+        "construction": {
+          "construction": 50,
+          "metal": 20
+        }
+      },
+      "collectedWaste": {
+        "organic": 0,
+        "plastic": 0,
+        "paper": 0,
+        "glass": 0,
+        "metal": 0,
+        "ewaste": 0,
+        "construction": 0
+      },
+      "plantWaste": {
+        "organic": 0,
+        "plastic": 0,
+        "paper": 0,
+        "glass": 0,
+        "metal": 0,
+        "ewaste": 0,
+        "construction": 0
+      },
+      "products": {
+        "compost": 0,
+        "biogas": 0,
+        "plasticGranules": 0,
+        "cardboard": 0,
+        "glassBottles": 0,
+        "metalIngots": 0,
+        "recoveredMetals": 0,
+        "paverBlocks": 0,
+        "aggregates": 0
+      },
+      "upgrades": {
+        "truckLevel": 1,
+        "sorterLevel": 1,
+        "recyclingLevel": 1,
+        "storageLevel": 1,
+        "solarPowerLevel": 0
+      },
+      "stats": {
+        "totalWasteCollected": 0,
+        "totalWasteRecycled": 0,
+        "totalProductsSold": 0,
+        "totalProfit": 0,
+        "totalCorrectSorts": 0,
+        "totalWrongSorts": 0,
+        "gameStartTime": "2026-08-16T05:45:50.265Z"
+      },
+      "missions": [
+        {
+          "id": "m_collect_100",
+          "title": "Waste Gatherer",
+          "description": "Collect 100 kg waste from surrounding locations",
+          "targetType": "collect",
+          "targetValue": 100,
+          "currentValue": 0,
+          "rewardMoney": 1000,
+          "rewardXP": 50,
+          "rewardGreenScore": 5,
+          "completed": false,
+          "claimed": false
+        },
+        {
+          "id": "m_sort_20",
+          "title": "Precision Sorter",
+          "description": "Sort 20 waste items correctly in the mini-game",
+          "targetType": "sort",
+          "targetValue": 20,
+          "currentValue": 0,
+          "rewardMoney": 800,
+          "rewardXP": 40,
+          "rewardGreenScore": 5,
+          "completed": false,
+          "claimed": false
+        },
+        {
+          "id": "m_recycle_50",
+          "title": "Circular Pioneer",
+          "description": "Recycle 50 kg of waste into finished goods",
+          "targetType": "recycle",
+          "targetValue": 50,
+          "currentValue": 0,
+          "rewardMoney": 1500,
+          "rewardXP": 60,
+          "rewardGreenScore": 8,
+          "completed": false,
+          "claimed": false
+        },
+        {
+          "id": "m_sell_10",
+          "title": "Eco Merchant",
+          "description": "Sell 10 recycled products at the marketplace",
+          "targetType": "sell",
+          "targetValue": 10,
+          "currentValue": 0,
+          "rewardMoney": 1200,
+          "rewardXP": 50,
+          "rewardGreenScore": 5,
+          "completed": false,
+          "claimed": false
+        },
+        {
+          "id": "m_greenscore_50",
+          "title": "Sustainability Milestone",
+          "description": "Reach a Green Score of 50 or higher",
+          "targetType": "greenScore",
+          "targetValue": 50,
+          "currentValue": 50,
+          "rewardMoney": 2000,
+          "rewardXP": 100,
+          "rewardGreenScore": 10,
+          "completed": true,
+          "claimed": false
+        }
+      ],
+      "achievements": [
+        {
+          "id": "ach_waste_warrior",
+          "title": "🏆 Waste Warrior",
+          "description": "Collect 1,000 kg total waste from the community",
+          "icon": "🗑️",
+          "unlocked": false,
+          "category": "collect",
+          "requirement": 1000
+        },
+        {
+          "id": "ach_master_recycler",
+          "title": "♻️ Master Recycler",
+          "description": "Recycle 500 kg of materials in processing plants",
+          "icon": "🏭",
+          "unlocked": false,
+          "category": "recycle",
+          "requirement": 500
+        },
+        {
+          "id": "ach_green_champion",
+          "title": "🌱 Green Champion",
+          "description": "Achieve a stellar Green Score of 80 / 100",
+          "icon": "🌟",
+          "unlocked": false,
+          "category": "greenScore",
+          "requirement": 80
+        },
+        {
+          "id": "ach_waste_tycoon",
+          "title": "💰 Waste Tycoon",
+          "description": "Earn a total of ₹50,000 from product sales & operations",
+          "icon": "💎",
+          "unlocked": false,
+          "category": "money",
+          "requirement": 50000
+        },
+        {
+          "id": "ach_circular_builder",
+          "title": "🏙️ Circular City Builder",
+          "description": "Upgrade your settlement to Level 3 (City)",
+          "icon": "🌆",
+          "unlocked": false,
+          "category": "level",
+          "requirement": 3
+        },
+        {
+          "id": "ach_green_future",
+          "title": "🌍 Green Future",
+          "description": "Reach the pinnacle of sustainability: Level 5 (Green City)",
+          "icon": "🌿",
+          "unlocked": false,
+          "category": "level",
+          "requirement": 5
+        }
+      ],
+      "activeEvent": null,
+      "lastDailyReset": "2026-08-16T05:45:50.266Z",
+      "hasCompletedTutorial": true
+    }
+  },
+  "sampleLeaderboard": [
+    {
+      "userId": "bot_1",
+      "name": "Aarav Sharma (EcoChampion)",
+      "picture": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&h=120&q=80",
+      "greenScore": 94,
+      "totalWasteRecycled": 4200,
+      "levelTitle": "🌍 Green City",
+      "level": 5,
+      "totalProfit": 125000
+    },
+    {
+      "userId": "bot_2",
+      "name": "Priya Patel (BioEnergy)",
+      "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&h=120&q=80",
+      "greenScore": 88,
+      "totalWasteRecycled": 2850,
+      "levelTitle": "🌆 Smart City",
+      "level": 4,
+      "totalProfit": 78000
+    },
+    {
+      "userId": "bot_3",
+      "name": "Vikram Mehta (ZeroWaste)",
+      "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&h=120&q=80",
+      "greenScore": 76,
+      "totalWasteRecycled": 1650,
+      "levelTitle": "🏙️ City",
+      "level": 3,
+      "totalProfit": 42000
+    },
+    {
+      "userId": "bot_4",
+      "name": "Ananya Roy (CircularLife)",
+      "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=120&h=120&q=80",
+      "greenScore": 62,
+      "totalWasteRecycled": 850,
+      "levelTitle": "🏘️ Town",
+      "level": 2,
+      "totalProfit": 19500
+    },
+    {
+      "userId": "bot_5",
+      "name": "Rohan Gupta (CleanEarth)",
+      "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=120&h=120&q=80",
+      "greenScore": 45,
+      "totalWasteRecycled": 420,
+      "levelTitle": "🏘️ Town",
+      "level": 2,
+      "totalProfit": 11000
+    }
+  ]
+}
